@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #9c9595;
+    background-image: url(/Images/hotel3.webp);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.nav{
+    background-color: black;
+    width: 100%;
+    padding: 9px 18px;
+   
+    overflow: hidden;
+   
+}
+
+.nav a{
+    float: right;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    
+  
+    padding: 10px;
+    color: white;
+}
+
+.nav a.nav1{
+    float: left;
+    font-size: 25px;
+   font-family: 'Bungee Spice', sans-serif;
+   word-spacing: 10px;
+   background-color: #333;
+ 
+
+}
+
+.nav a:hover{
+    color: rgb(212, 152, 12);
+}
+
+
+.nav .search {
+    float: right;
+  
+    align-items: center;
+    font-size: 2px;
+    padding-right: 50px;
+    margin-top: 13px;
+    
+}
+.nav .search input{
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.head{
+    margin-top: 80px;
+    margin-left: 30%; 
+    margin-right: 30%; 
+    color: white;
+    
+}
+
+.head h5{
+    font-weight: 300;
+    color: #f5b507;
+    font-size: 19px;
+}
+
+.head h1{
+    font-size: 50px;
+}
+
+
+.head a{
+    background-color: #333333b4;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px;
+    color: white;
+    margin-left: 180px;
+    margin-top: 1000px;
+    
+}
+
+.head a:hover{
+    color: rgb(240, 214, 21);
+    background-color: #576574;
+    
+}
